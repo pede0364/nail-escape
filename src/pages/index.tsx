@@ -1,8 +1,7 @@
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Portfolio from "../components/Portfolio";
-import Recommend from "../components/Recommend";
-import Resume from "../components/Resume";
+import Gallery from "../components/Gallery";
+import Services from "../components/Services";
 
 {
   /* home page */
@@ -12,9 +11,8 @@ export default function Home() {
     <>
       <body>
         <About />
-        <Resume />
-        <Portfolio />
-        <Recommend />
+        <Services />
+        <Gallery />
         <Contact />
       </body>
     </>
