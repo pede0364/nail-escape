@@ -10,3 +10,17 @@ export const homePageMeta: HomepageMeta = {
   description:
     "Aimee Pederson | Frontend Developer, Conversion Rate Optimization Expert, QA Engineer",
 };
+
+/**
+ * Section definition
+ */
+export const SectionId = {
+  About: 'about',
+  Contact: 'contact',
+  Gallery: 'gallery',
+  Header: 'header',
+  Hero: 'hero',
+  Services: 'services',
+} as const;
+
+export type SectionId = (typeof SectionId)[keyof typeof SectionId];
